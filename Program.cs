@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Test
 {
-    internal class Program
+    internal class Codewars1
     {
         static void Main(string[] args)
         {
@@ -25,3 +25,4 @@ namespace Test
 
     }
 }
+
