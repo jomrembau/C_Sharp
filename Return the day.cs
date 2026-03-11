@@ -1,0 +1,54 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Codewars
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+
+        public static string WhatDay(int n)
+        {
+            switch (n)
+            {
+                case 1:
+                    return "Sunday";
+                    break;
+
+                case 2:
+                    return "Monday";
+                    break;
+                
+                case 3:
+                    return "Tuesday";
+                    break;
+
+                case 4:
+                    return "Wednesday";
+                    break;
+
+                case 5:
+                    return "Thursday";
+                    break;
+
+                case 6:
+                    return "Friday";
+                    break;
+
+                case 7:
+                    return "Saturday";
+                    break;
+                
+                default:
+                    return "Wrong, please enter a number between 1 and 7";
+                    break;
+            }
+        }
+    }
+}
